@@ -1,7 +1,4 @@
-import numpy
 import random
-import math
-import time
     
 def calc(c,n):
     return 1/(1+(((c[0]/c[1])**n)*((c[0]-(1-c[0]))/(c[1]-(1-c[1])))*(((c[1]**n)-((1-c[1])**n))/((c[0]**n)-((1-c[0])**n)))))
